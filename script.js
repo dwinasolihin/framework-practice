@@ -16,3 +16,12 @@ var gators = [
     imgSource: "http://www.vaguebuttrue.com/images/1449775760-alligatorclimbsfenceWEBSITE.jpg"
   }
 ]
+var app;
+document.addEventListener("DOMContentLoaded", function(){
+  app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
+})
