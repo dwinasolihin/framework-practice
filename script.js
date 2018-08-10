@@ -1,4 +1,4 @@
-var gators = [
+let gators = [
   {name: "Elvis Vessley",
     hobbies: "surfing, dancing",
     weight: 865,
@@ -16,12 +16,12 @@ var gators = [
     imgSource: "http://www.vaguebuttrue.com/images/1449775760-alligatorclimbsfenceWEBSITE.jpg"
   }
 ]
-var app;
+let profileListings;
 document.addEventListener("DOMContentLoaded", function(){
-  app = new Vue({
-    el: '#app',
+  profileListings = new Vue({
+    el: '#profileListings',
     data: {
-      message: 'Hello Vue!'
+      profiles: gators
     }
   })
 })
